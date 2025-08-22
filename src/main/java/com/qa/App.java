@@ -14,6 +14,7 @@ public class App
         System.out.println(sayHelloToSomeone("Charlie"));
         System.out.println(sayHelloToSomeone("Zena"));
         System.out.println(sayHelloToSomeone("Adam"));
+        System.out.println(sayHelloToSomeone("Adam2"));
         System.out.println(sayGoodbye());
     }
 
@@ -26,6 +27,6 @@ public class App
     }
 
     public static String sayHelloToSomeone(String name){
-        return "Hello " + name + " change!!";
+        return "(v2) Hello " + name + " change!!";
     }
 }
