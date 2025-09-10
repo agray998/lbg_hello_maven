@@ -26,6 +26,6 @@ public class App
     }
 
     public static String sayHelloToSomeone(String name){
-        return "Hello " + name ;
+        return "(v1.2) Hello " + name ;
     }
 }
